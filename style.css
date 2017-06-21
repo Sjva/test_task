@@ -1,0 +1,263 @@
+/*font open-sans-bold*/
+@import url(http://allfont.ru/allfont.css?fonts=open-sans-bold);
+/*font open-sans*/
+@import url(http://allfont.ru/allfont.css?fonts=open-sans);
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+a{
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', arial;
+}
+
+.head_color{
+    height: auto;
+    background-color: #1a1a19;
+    border-bottom: 2px solid #ff6b00 ;
+}
+.header_logo{
+    margin: 10% 0 10% 0;
+}
+.header_form{
+    background-color: #1a1a19;
+    margin: 5% 0 5% 0;
+    border: 0;
+}
+.form-control{
+    border-radius:0;
+    background-color: #1a1a19;
+    width: 90%;
+    height: 40px;
+    box-shadow:none;
+    color: white;
+}
+.form-control:hover{
+    border-color: #ff6b00;
+}
+.btn-default{
+    background-color: #ff6b00;
+    width: 15%;
+    height: 40px;
+    border-radius:0;
+    color:white;
+    margin-left: 1%;
+}
+
+/*<!--begin carousel-->*/
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+.carousel-caption{
+    margin-bottom: 4%;
+    text-shadow: 3px 3px 2px rgba(73,73,71,1);
+
+}
+.slide1_current{
+    font-family: 'Open Sans Bold', Arial;
+}
+.slide1_text{
+    font-size: 20px;
+}
+.slide1_button{
+    margin-top: 1%;
+    width: 22%;
+    height: 40px;
+    box-shadow: 4px 4px 10px rgba(73,73,71,0.7);
+    background-color: #494947;
+    border: none;
+}
+button a {
+    color:#d1d1d1;
+}
+.slide1_button:hover{
+    background-color: white;
+}
+.slide2_text{
+    margin:0 0 10%;
+}
+.slide3_text{
+    margin:0 0 14%;
+}
+.glyphicon-chevron-right:before  {
+    color: #c35100;
+}
+.glyphicon-chevron-left:before{
+    color: #c35100;
+}
+.carousel-indicators li{
+    background-color: #1a1a19;
+}
+.carousel-indicators li:hover{
+    background-color: #c35100;
+}
+/*-End carousel*/
+
+.main_block{
+    background-color: #33363d;
+}
+.thumbnail{
+    background-color: #33363d;
+    color:white;
+    border: none;
+    margin: 32% 0 32%;
+}
+.main_current{
+    text-align: center;
+    font-family: 'Open Sans Bold', Arial;
+    margin: 20% 0 10% 0;
+}
+.main_button{
+    background-color: #c35100;
+    width: 59%;
+    margin: 15% 0 0 18%;
+}
+.main_button:hover{
+    background-color: #ff6b00;
+    text-decoration: none;
+}
+.main_button_down{
+    margin: 23% ;
+}
+.main_button_top{
+    margin-top: 10%;
+}
+.main_text1{
+    margin: 0 0 0 12%
+}
+.main_text2, .main_text3{
+    margin:0;
+}
+/*-begin webmaster*/
+.webmaster{
+    width:120%;
+    padding-right: 15%;
+    margin: 19%  0 0 -10%;
+    background-color: white;
+    color:#252525;
+}
+
+article h1, h4{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.webmaster_current{
+    color:#ff6b00;
+}
+/*-End webmaster*/
+
+/*-begin partners*/
+#partners {
+    background: url(image/partners.jpg) no-repeat center / cover;
+}
+.partners_article{
+    background: rgba(255, 255, 255, 0.9);
+    width:100%;
+    height:100%;
+    margin: 10% 0 10%;
+    color:#242424;
+}
+.partners_article h1{
+   padding: 5% 0 0 5%;
+    text-align: center;
+}
+.partners_text{
+    text-align: center;
+    margin: 0 12% 5% 12%;
+}
+/*-END partners*/
+
+/*-begin ltd_metricon*/
+.metricon_text{
+    margin: 12% 0 12%;
+}
+/*-END ltd_metricon*/
+
+/*-begin network*/
+.ad_networks{
+   background-color: #e8e8e8;
+}
+.networks_text{
+    background-color: #e8e8e8;
+    color:#242424;
+}
+.adforce_logo{
+    margin: -18% 0 10%;
+}
+.utarget_logo{
+    margin: -15% 0 12%;
+}
+/*-END ltd_network*/
+
+/*-begin footer*/
+footer{
+    background-color: #33363d;
+
+}
+footer p{
+    color:#717378;
+}
+footer p:hover{
+    color:#ff6b00;
+}
+.fa-envelope, .fa-skype{
+    font-size: 60px;
+    padding: 10%;
+    color:#717378;
+}
+.footer_email p{
+    display:inline-block;
+    margin-top:-10%;
+}
+.list-inline{
+    padding: 3% 0 3% 0;
+}
+.footer_email{
+    margin: 1% 0 0 -2%;
+}
+.fa-envelope{
+    margin-top:-2%;
+}
+.fa-skype{
+    margin-left:30%;
+}
+.policy{
+   margin-top: 6%;
+}
+/*-END footer*/
+
+@media (max-width:1199px) and (min-width:320px) {
+
+}
+@media (max-width:992px) and (min-width:320px) {
+    .utarget_logo{
+        margin: -55% 0 5%;}
+    .footer_email{
+        margin: 1% 0 0 0;
+    }
+
+}
+@media (max-width:773px) and (min-width:320px) {
+
+}
+@media (max-width:767px) and (min-width:320px) {
+
+}
+@media (max-width:600px) and (min-width:320px) {
+
+}
+@media (max-width:500px) and (min-width:320px) {
+
+}
+@media (max-width:400px) and (min-width:320px) {
+
+}

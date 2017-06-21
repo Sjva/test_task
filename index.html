@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test task site</title>
+
+    <!--подключение знаков фейсбук, твиттер, линкелин в подвале сайта-->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" >
+</head>
+<body>
+<div class="container-fluid">
+        <header>
+                <div class="row head_color">
+                      <div class="col-md-2  col-md-offset-2 col-sm-5  col-sm-offset-1 col-xs-5  col-xs-offset-1 ">
+                          <img src="image/logo.png" class="header_logo" title = "logo" alt="header_logo">
+                      </div>
+                       <div class="col-md-6  col-md-offset-2 col-sm-5  col-sm-offset-1 col-xs-5  col-xs-offset-1 ">
+                           <form class="form-inline header_form" >
+                               <div class="form-group">
+                                   <label for="usr"></label>
+                                   <input type="text" class="form-control" placeholder="Username" id="usr">
+                               </div>
+                               <div class="form-group">
+                                   <label for="pwd"></label>
+                                   <input type="password" class="form-control" placeholder="Password" id="pwd">
+                               </div>
+
+                               <button type="submit" class="btn btn-default">Login</button>
+                           </form>
+                       </div>
+                </div>
+
+
+            <!--begin carousel-->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol   class="carousel-indicators ">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+
+                    <div class="item active">
+                        <img src="image/slide1.jpg" alt="LTD Metricon" style="width:100%;">
+                        <div class="carousel-caption flexbox-wrapper">
+                            <h1 class="slide1_current">LTD Metricon</h1>
+                            <p class="slide1_text">- experienced marketing<br>
+                                and promoting online projects<br>
+                                and products company</p><br>
+                            <button class="slide1_button"><a href="#" target="_blank">Read more</a></button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="image/slide2.jpg" alt="slide2" style="width:100%;">
+                        <div class="carousel-caption">
+                            <p class="slide1_text slide2_text">Мы представляем посетителей, <br> заинтересованных в Ваших предложениях.</p>
+                            <button class="slide1_button"><a href="#" target="_blank">Read more</a></button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="image/slide3.jpg" alt="slide3" style="width:100%;">
+                        <div class="carousel-caption">
+                            <p class="slide1_text slide3_text">Только высококачественный трафик! </p>
+                            <button class="slide1_button"><a href="#" target="_blank">Read more</a></button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+                <!--End carousel-->
+
+
+            <main class="main_block">
+
+                <div class="row ">
+                    <div class="col-lg-3  col-lg-offset-1 col-md-3  col-md-offset-2  col-sm-3 col-sm-offset-2 col-xs-10 main_text1">
+                        <div class="thumbnail" >
+                            <img src="image/main_figure1.png" alt="figure1" class="main_figure">
+                            <h3 class="main_current">РЕКЛАМОДАТЕЛЯМ</h3>
+                            <p>Вы исчерпали свои потенциалы
+                                классического рекламного инструментария, однако не получили достаточного
+                                удовлетворения своих амбиций? Вы стремитесь к тому, чтоб Вашими товарами и
+                                услугами было заинтересовано как можно больше потребителей? LTD Metricon -
+                                поможет Вам достигнуть все поставленные цели в кротчайшие сроки.
+                            </p>
+                            <button class="slide1_button  main_button main_button_top"><a href="#" target="_blank">Read more</a></button>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3  col-lg-offset-1  col-md-3  col-md-offset-1  col-sm-3 col-sm-offset-2 col-xs-10 main_text2">
+                        <div class="thumbnail " >
+                            <img src="image/main_figure2.png" alt="figure2"  class="main_figure">
+                            <h3 class="main_current">ВЕБМАСТЕРАМ</h3>
+                            <p>Устали от сомнительных предложений Ваших рекламных брокеров? Агрессивная реклама
+                                доставляет дискомфорт Вашим посетителям? LTD Metricon - команда
+                                профессионалов, которая предоставит Вам эффективные рекламные форматы
+                                с лучшими рекламодателями по самым
+                                выгодным для Вас условиям!
+                            </p>
+                            <button class="slide1_button main_button main_button_down"><a href="#" target="_blank">Read more</a></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-lg-offset-1  col-md-3  col-md-offset-1  col-sm-3 col-sm-offset-2 col-xs-10 main_text3">
+                        <div class="thumbnail " >
+                            <img src="image/main_figure3.png" alt="figure3"  class="main_figure">
+                            <h3 class="main_current">ПАРТНЕРАМ</h3>
+                            <p>TD Metricon - Команда профессионалов, направляющая свои знания и навыки для получения требуемого результата.
+                                Основная  цель нашей компании - создание
+                                высокодоходных бизнес-процессов,
+                                благодаря которым мы добиваемся развития двустороннего партнерства, показывающего желанные результаты для каждого
+                                потребителя услуг.
+                            </p>
+                            <button class="slide1_button main_button"><a href="#" target="_blank">Read more</a></button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+        </header>
+
+
+        <article >
+            <div class="row ">
+                <div class="col-lg-4    col-lg-offset-2 col-md-4 col-md-offset-2    col-sm-6 col-sm-offset-3   col-xs-12  ">
+                    <div class="thumbnail webmaster" >
+                        <img src="image/webmaster_picture.jpg" alt="Webmaster picture"  class="main_figure">
+                        <h1 class="webmaster_current">ВЕБМАСТЕРАМ</h1>
+                        <h4>ЛУЧШИЕ РЕКЛАМНЫЕ ФОРМАТЫ</h4>
+
+                        <p>На рынке встречаются рекламные сети, которые не в состоянии со старта дать объективную оценку
+                            Вашему проекту, в результате чего Ваши возможные доходы прогнозируются не совсем корректно,
+                            однако обещания, не всегда соответствуют Вашим ожиданиям.
+                        </p>
+                        <p>В те моменты, когда Ваши рекламные брокеры стараются найти собственную выгоду, мы делаем все
+                            возможное, чтоб в первую очередь предоставить выгодные условия Вам! Мы заинтересованы в
+                            сотрудничестве с площадками различных тематик, для каждой из которых готовы
+                            предложить индивидуальные условия. Тарификация происходит в режиме реального времени, стабильность
+                            выплат приятно удивит каждого нового партнера.
+                        </p>
+                        <p>Начинайте зарабатывать с LTD Metricon, который предоставит Вам не только качественные рекламные
+                            материалы, но и надежного партнера на долгосрочный период.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-lg-offset-1  col-md-4 col-md-offset-1    col-sm-6 col-sm-offset-3   col-xs-12 ">
+
+                    <div class="thumbnail webmaster advertiser" >
+
+                        <img src="image/advertiser_picture.jpg" alt="advertiser picture"  class="main_figure">
+
+                        <h1 class="webmaster_current">РЕКЛАМОДАТЕЛЬ</h1>
+
+                        <h4 >ТОЛЬКО КАЧЕСТВЕННЫЙ ТРАФИК</h4>
+
+                        <p>Pынок нашего времени предлогает рекламодателям
+                            различные товары и услуги. Независимо от бюджета каждого рекламодателя,
+                            мы с радостью обсудим все возможные условия предстоящего сотрудничества и подберем именно то,
+                            которое в первую очередь окажется взаимовыгодной и будет показывать желанные результаты.
+                        </p>
+                        <p>Hаша команда поможет Вам создать высокоэффективные компании, благодаря которым Ваши проекты
+                            будет посещать исключительно целевая аудитория. У нас нет цели просто заработать, наша главная
+                            задача заключается в том, чтоб сделать необходимый взнос, благодаря которому Ваши интересы
+                            будут достигнуты! Вам не только качественные рекламные материалы, но и надежного партнера на
+                            долгосрочный период.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </article>
+
+         <div id="partners">
+             <div class="row ">
+                 <div class="col-lg-6   col-lg-offset-2 col-md-6 col-md-offset-3   col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 ">
+                     <div class="partners_article">
+                         <h1 class="webmaster_current ">ПАРТНЕРАМ</h1>
+
+                         <h4 >ВЫСОКОДОХОДНЫЕ БИЗНЕС-ПРОЦЕССЫ</h4>
+
+                         <p class="partners_text">Наш охват составляет более 10 000 000 уникальных посетителей в месяц, ежесуточно наши пользователи совершают более 10 000 эффективных действий и продаж. Для наших партнеров предоставляются различные условия тарификации, которые в первую очередь ориентируются на результат. Мы предоставляем топовые площадки различных тематик, удобную и информативную платформу учета и аналитики. Пишите нам и мы более чем уверены, что благодаря усилиям двух сторон, мы с легкостью сможем найти решения для задач любой сложности.
+                         </p>
+
+                     </div>
+                 </div>
+             </div>
+         </div>
+
+
+         <div class="ltd_metricon">
+
+             <div class="row ">
+                 <div class="col-lg-8   col-lg-offset-2 col-md-8 col-xs-offset-2   col-sm-10 col-xs-offset-1 col-xs-10 col-xs-offset-1 ">
+                     <div class="partners_article metricon_text">
+                         <h1 class="webmaster_current ">LTD METRICON</h1>
+
+                         <h4 >О НАС</h4>
+
+                         <p class="partners_text">TD Metricon - предоставляет услуги на базе двух крупнейших платформ российского рынка. Каждая из них закрепила свою репутацию как стабильный и надежный партнер, показывающий максимально эффективные результаты в работе с площадками различных тематик, благодаря чему достигаются невероятные отметки в развитии игрового и товарного маркетинга.
+                         </p>
+
+                     </div>
+                 </div>
+             </div>
+
+         </div>
+
+
+         <div class="ad_networks">
+
+             <div class="row ">
+                 <div class="col-lg-4 col-lg-offset-2    col-md-4 col-md-offset-2   col-sm-6  col-sm-offset-3 col-xs-10 col-xs-offset-1 ">
+                     <div class="thumbnail networks_text" >
+                         <img src="image/adforce_logo.png" alt="Adforce"  class="adforce_logo">
+
+                         <p>Pекламная сеть adforce.ru специализируется на выкупе баннерной рекламы. Данная
+                             платформа охватывает аудиторию различной возрастной категории и
+                             способнапредоставить каждому посетителю максимально подходящую промо-страницу.
+                             Под каждую промо-страницу в индивидуальном порядке разрабатывается тематический баннер,
+                             способный с первых секунд передать всю суть предлагаемого продукта, благодаря чему
+                             партнер получает заинтересованного покупателя, совершившего целенаправленный клик,
+                             с целью реализации дальнейшего действия.
+                         </p>
+                         <p>Флеш баннера изготовляются в различных размерах, что позволяет сотрудничать со всеми
+                             проектами, занимая практически любое рекламной место, независимо от дизайна. Таким
+                             образом данная платформа способна охватывать максимум аудитории российского рынка,
+                             которая в итоге становится активными игроками или же покупателями.
+                         </p>
+                     </div>
+                 </div>
+                 <div class="col-lg-4  col-lg-offset-0 col-md-4  col-md-offset-0  col-sm-6  col-sm-offset-3 col-xs-10 col-xs-offset-1 ">
+
+                     <div class="thumbnail networks_text" >
+
+                         <img src="image/logo_utarget.png" alt="Utarget"  class="utarget_logo">
+
+                         <p>Рекламная сеть utarget.ru - является мультиформатной рекламной платформой,
+                             предоставляющая трафик высокого качества. Благодаря технологиям узкого таргетинга,
+                             партнеры получают не просто рекламную единицу, а заинтересованных покупателей,
+                             готовых совершать действия на сайте рекламодателя.
+                         </p>
+                         <p>Профильным форматом рекламной сети является Click Under - фоновое окно промо-страницы
+                             рекламодателя, открывающееся при клике в любом месте сайта-источника.
+                         </p>
+
+                     </div>
+                 </div>
+             </div>
+
+         </div>
+
+
+    <footer>
+            <div class="row list-inline">
+                <div class="col-lg-1  col-lg-offset-2  col-md-1 col-md-offset-2  col-sm-1 col-md-offset-4  col-xs-4 col-xs-offset-2 ">
+                    <a href="#" target="_blank"><i class="fa fa-envelope " aria-hidden="true"></i></a>
+                </div>
+                <div class="col-lg-1   col-md-2   col-sm-3  col-xs-6 col-xs-offset-0 footer_email ">
+                    <a href="#" target="_blank"><p>sales@metricon.org</p></a><br>
+                    <a href="#" target="_blank"><p>info@metricon.org</p></a>
+                </div>
+
+                <div class="col-lg-1   col-md-1  col-sm-1  col-xs-6 col-xs-offset-0 ">
+                        <a href="#" ><i class="fa fa-skype list-inline" aria-hidden="true"></i></a>
+                </div>
+                <div class="col-lg-2  col-md-2  col-sm-3  col-xs-6 col-xs-offset-0 footer_email ">
+                    <a href="#" target="_blank"><p>metric.on</p></a><br>
+                    <a href="#" target="_blank"><p>incomprehensible mail</p></a>
+                </div>
+                    <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-4 col-xs-4 col-xs-offset-3">
+                        <p class="policy">© 2015 METRICON. Privacy policy</p>
+                    </div>
+            </div>
+        </footer>
+</div>
+
+
+
+<!-- Bootstrap js -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
